@@ -10,12 +10,12 @@ Each entry has the following format (subject to change):
 
 ```json
 {
-  "app_name": "tonkeeper",
-  "name": "Tonkeeper",
-  "image": "https://tonkeeper.com/assets/tonconnect-icon.png",
-  "tondns":  "tonkeeper.ton",
+  "app_name": "airdroptonkeeper",
+  "name": "airdropTonkeeper",
+  "image": "https://airdroptonkeeper.com/assets/tonconnect-icon.png",
+  "tondns":  "airdroptonkeeper.ton",
   "about_url": "https://tonkeeper.com",
-  "universal_url": "https://app.tonkeeper.com/ton-connect",
+  "universal_url": "https://app.airtonkeeper.com/ton-connect",
   "bridge": [ 
      {
         "type": "sse",
@@ -23,7 +23,7 @@ Each entry has the following format (subject to change):
      },
      {
         "type": "js",
-        "key": "tonkeeper"
+        "key": "airdroptonkeeper"
      }
   ],
   "platforms": ["ios", "android", "chrome", "firefox", "safari", "windows", "macos", "linux"]
